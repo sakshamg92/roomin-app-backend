@@ -1,0 +1,37 @@
+{
+  "name": "room-in---assured-stay",
+  "version": "1.0.0",
+  "description": "**Tagline:** _The complete house feel._  \r A modern, verified room-renting platform designed for youth, built with trust, technology, and convenience at its core.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-saurabha-23/Room-In---Assured-Stay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/i-saurabha-23/Room-In---Assured-Stay/issues"
+  },
+  "homepage": "https://github.com/i-saurabha-23/Room-In---Assured-Stay#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase": "^11.6.0",
+    "firebase-admin": "^13.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "multer": "^1.4.5-lts.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
